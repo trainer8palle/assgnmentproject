@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+Myapp Index Page
+
+<form action="readdate" method="post">
+    {% csrf_token %}
+    Num1 : <input type="text" name="tbfnum" /><br/>
+    Num2 : <input type="text" name="tbsnum" /><br/>
+    <input type="submit" value="Add" name="btnadd">
+</form>
+</body>
+</html>
